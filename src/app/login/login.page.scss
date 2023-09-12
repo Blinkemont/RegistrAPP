@@ -1,0 +1,39 @@
+ion-content{
+    --ion-background-color:#83a7e0;
+
+    ion-input.custom-input {
+        --border-color: var(--ion-color-tertiary);
+    }
+    
+      /* Cambia el color del label cuando el input está enfocado */
+    ion-input.custom-input .input-label {
+        color: var(--ion-color-tertiary);      
+    }
+
+    .custom-input{
+        margin: 10px 0px 10px 0px;
+        
+    }
+    .imgTop{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 20px 0px 10px 0px;
+
+    }
+    .a{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .custom-button{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        margin: 15px 0px 20px 0px;
+    }
+
+
+}

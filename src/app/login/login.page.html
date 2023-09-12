@@ -1,0 +1,19 @@
+<ion-content [scrollY]="false" [fullscreen]="true" class="ion-padding">
+    <div class="imgTop">
+      <img src="assets/logo.png" alt="" class="img">
+    </div>
+
+    <div>
+      <h2>Bienvenido!</h2>
+    </div>
+
+    <div>
+      <ion-input type="text" label="Usuario" label-placement="floating" fill="outline" [(ngModel)]="user" class="custom-input" id="user" name="user"></ion-input>
+      <ion-input type="password" label="password" label-placement="floating" fill="outline" [(ngModel)]="pswd" class="custom-input" id="pswd" name="pswd"></ion-input>
+    </div>
+
+    <ion-button color="warning" (click)="login()" class="custom-button">ingresar</ion-button>
+    <div>
+      <a (click)="recoverPswd()" class="a">Olvido su contraseña</a>
+    </div>
+</ion-content>
